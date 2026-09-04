@@ -1,11 +1,18 @@
 {
   "expo": {
-    "name": "ips-mobile",
+    "name": "Indian Procurement System",
     "slug": "prakash",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo.png",
     "userInterfaceStyle": "light",
+
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f6f4ee"
+    },
+
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.anonymous.ipsmobile",
@@ -13,23 +20,25 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
+
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#1c2b4a",
+        "foregroundImage": "./assets/logo.png"
       },
       "package": "com.anonymous.ipsmobile"
     },
+
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
     },
+
     "extra": {
       "eas": {
         "projectId": "ec808510-af48-4b38-8c74-bb5892ca53d8"
       }
     },
+
     "owner": "coderprakash10xs-team"
   }
 }
